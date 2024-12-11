@@ -30,5 +30,4 @@ app.MapControllerRoute(
 
 app.Run();
 
-builder.Services.AddDbContext<ClownCarRentalContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ClownCarRental")));
+
